@@ -1,0 +1,22 @@
+.consultationPage {
+    width: 100vw;
+    min-height: 500px;
+
+
+    position: relative;
+}
+
+.consultationPage-container {
+    max-width: 1170px;
+    padding: 40px 15px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.girl-bg {
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+}

@@ -1,0 +1,31 @@
+.main-content-button {
+    display: flex;
+    color: #fff;
+
+    transition: all .2s linear;
+}
+
+.main-content-button:hover {
+    cursor: pointer;
+    background-color: #ffc222;
+}
+
+.button-content {
+    font-family: 'PT Serif', sans-serif;
+
+    border: 2px solid #ffc222;
+    padding: 7px 23px;
+    display: flex;
+}
+
+.button-icon {
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc222;
+}
+
+.black {
+    color: #000;
+}

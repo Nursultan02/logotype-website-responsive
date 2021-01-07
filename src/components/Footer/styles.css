@@ -1,0 +1,32 @@
+.footer {
+    min-height: 376px;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 30px 15px 40px 15px ;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.footer-bottom h2 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 375px) {
+    .footer-bottom h2 {
+        font-size: 10px;
+    }
+}

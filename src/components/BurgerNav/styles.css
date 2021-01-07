@@ -1,0 +1,46 @@
+.burgerNav {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    width: 320px;
+    min-height: 100vh;
+    background-color: #c8c8c8;
+    z-index: 100;
+    border-radius: 15px 0 0 15px;
+    padding: 100px 30px;
+
+    transition: all .25s ease-in-out;
+}
+
+.burgerToggle {
+    transform: translateX(-320px);
+}
+
+.closeIcon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    font-size: 30px;
+}
+
+.burgerNav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.burgerNav-list li {
+    height: 50px;
+}
+
+.burgerNav-list li a {
+    font-size: 25px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+
+    transition: color .25s linear;
+}
+
+.burgerNav-list li a:hover {
+    color: #000;
+}
